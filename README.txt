@@ -41,7 +41,7 @@ I am committed to pushing the boundaries of data science and exploring new oppor
   
 ## Contact Me
 
-- **Email:** [gaddam.pa@northeastern.edu](mailto:gaddam.pa@northeastern.edu)
+- **Email:** [gaddam.pa@northeastern.edu]
 - **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/pareekshitreddy/)
 - **GitHub:** [GitHub Profile](https://github.com/pareekshitreddy)
 
