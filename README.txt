@@ -4,7 +4,7 @@ Welcome to my portfolio website! This repository contains the code for my person
 
 ## About Me
 
-I am a passionate data scientist with 2 years of experience in Machine Learning and Data Science. I specialize in transforming raw data into actionable insights that drive measurable outcomes. I have honed my skills in 𝗣𝘆𝘁𝗵𝗼𝗻, 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗚𝗲𝗻-𝗔𝗜, and applied them to 𝘀𝗼𝗹𝘃𝗲 𝗿𝗲𝗮𝗹-𝘄𝗼𝗿𝗹𝗱 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀 in various domains.
+I am a passionate data scientist with 5+ years experience in Machine Learning and Data Science. I specialize in transforming raw data into actionable insights that drive measurable outcomes. I have honed my skills in 𝗣𝘆𝘁𝗵𝗼𝗻, 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴, 𝗮𝗻𝗱 𝗚𝗲𝗻-𝗔𝗜, and applied them to 𝘀𝗼𝗹𝘃𝗲 𝗿𝗲𝗮𝗹-𝘄𝗼𝗿𝗹𝗱 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀 in various domains.
 
 🤖 𝗦𝗸𝗶𝗹𝗹𝘀 & 𝗜𝗻𝘁𝗲𝗿𝗲𝘀𝘁𝘀: 
 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴: Python, SQL, R
