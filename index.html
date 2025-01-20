@@ -11,182 +11,194 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- Inline CSS for the round profile picture -->
+		<style>
+			/* Make sure the header is positioned to allow absolute child elements */
+			#header {
+				position: relative;
+			}
+			.top-right-profile-pic {
+				position: absolute;
+				top: 20px; 
+				right: 20px; 
+				width: 60px; 
+				height: 60px; 
+				border-radius: 50%; 
+				object-fit: cover; 
+				border: 2px solid #fff; /* Optional: white border around the circle */
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+		<div id="wrapper" class="fade-in">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Pareekshit Reddy<br />
-						<h1>Gaddam<br />
-						</h1>
-						<p>AWS Certified Cloud Practioner and ML Specialist </p>
-						<!--<p><a href="https://www.linkedin.com/in/pareekshitreddy/">@PareekshitReddy</a> </p>-->
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Projects</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Generative AI</a></li>
-							<li><a href="NLP_CV.html">NLP / CV</a></li>
-							<li><a href="Data Science_ML.html">Data Science & ML</a></li>
-							<li><a href="MLOps.html">MLOps</a></li>
-							<li><a href="databases.html">Databases</a></li>
-
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/pareekshitreddyg/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/pareekshitreddy" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="mailto:gaddam.pa@northeastern.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						
-
-						<!-- Posts -->
-							<section class="posts">
-								
-								<article >
-									<header>										
-										<h2><a href="https://github.com/pareekshitreddy/Policy-Recommendation-System">Policy Recommendation<br />
-										System</a></h2>
-										
-									</header>
-									<a href="https://github.com/pareekshitreddy/Policy-Recommendation-System" class="image main"><img src="images\APRS.jpeg" alt="" /></a>
-									<p>Applied Machine Learning Prototypes (AMP) for Cloudera's Open-Source tech stack, enabling seamless deployment 
-										via Cloudera Machine Learning. This AMP offers one-click deployment and generates policy recommendations, providing 
-										stakeholders and policymakers with real-time insights for effective implementation.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/pareekshitreddy/Policy-Recommendation-System" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								
-													
-								<article>
-									<header>
-										<h2><a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool">QuerySense: Natural Language to SQL Converter & Database Query Tool<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool" class="image fit"><img src="images\natural_language_to_sql.webp" alt="" /></a>
-									<p> End-to-end LLM application for seamless conversion of natural language queries into SQL queries, along with querying 
-										the database. Leveraging the Gemini-pro API for language model capabilities and FLASK for user-friendly interface.
-										</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool" class="button">View Project</a></li>
-									</ul>
-								</article>
-
-								<article>
-									<header>
-										<h2><a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot">Ask Ally: Your Intuitive Q&A Chatbot<br />
-										</a></h2>
-									</header>
-									<a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot" class="image fit"><img src="images\qachatbot.avif" alt="" /></a>
-									<p>End-to-End question-answering chatbot using Python and Streamlit, integrating the Langchain language model and the OpenAI API for language understanding. 
-										The application is deployed on Hugging Face Spaces</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot" class="button">View Project</a></li>
-									</ul>
-								</article>
-			
-							</section>
-
-						<!-- Footer -->
-							<!-- <footer> -->
-								<!-- <div class="pagination"> -->
-									<!-- <a href="#" class="previous">Prev</a> -->
-									<!-- <a href="#" class="page active">1</a> -->
-									<!-- <a href="#" class="page">2</a> -->
-									<!-- <a href="#" class="page">3</a> -->
-									<!-- <span class="extra">&hellip;</span> -->
-									<!-- <a href="#" class="page">8</a> -->
-									<!-- <a href="#" class="page">9</a> -->
-									<!-- <a href="#" class="page">10</a> -->
-									<!-- <a href="#" class="next">Next</a> -->
-								<!-- </div> -->
-							<!-- </footer> -->
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<!-- <section>
-							<form method="post" action="mailto:gaddam.pa@northeastern.edu">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section> -->
-							<section class="alt">
-								<h3>Address</h3>
-								<p>99 Calumet St<br />
-								Boston, MA, 02120</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="Tel: 5133072627">(513) 307-2627</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="mailto:gaddam.pa@northeastern.edu">gaddam.pa@northeastern.edu</a></p>
-							</section>
-							<section>
-
-    
-
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/pareekshitreddyg/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/pareekshitreddy" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="mailto:gaddam.pa@northeastern.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-				<div id="copyright">
-					<ul><li>&copy; Pareekshit Reddy Gaddam</li><li> Data Scientist</li></ul>
-				</div>
-
+			<!-- Intro -->
+			<div id="intro">
+				<h1>Pareekshit Reddy<br />
+				<h1>Gaddam<br />
+				</h1>
+				<p>AWS Certified Cloud Practioner and ML Specialist </p>
+				<ul class="actions">
+					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">Projects</a>
+				<!-- New Round Profile Picture -->
+				<img src="images/myphoto.jpg" alt="My Photo" class="top-right-profile-pic" />
+			</header>
 
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li class="active"><a href="index.html">Generative AI</a></li>
+					<li><a href="NLP_CV.html">NLP / CV</a></li>
+					<li><a href="Data Science_ML.html">Data Science & ML</a></li>
+					<li><a href="MLOps.html">MLOps</a></li>
+					<li><a href="databases.html">Databases</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/pareekshitreddyg/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/pareekshitreddy" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="mailto:gaddam.pa@northeastern.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<!-- Posts -->
+				<section class="posts">
+					<article>
+						<header>
+							<h2><a href="https://github.com/pareekshitreddy/Policy-Recommendation-System">Policy Recommendation<br />
+							System</a></h2>
+						</header>
+						<a href="https://github.com/pareekshitreddy/Policy-Recommendation-System" class="image main">
+							<img src="images/APRS.jpeg" alt="" />
+						</a>
+						<p>
+							Applied Machine Learning Prototypes (AMP) for Cloudera's Open-Source tech stack, enabling seamless deployment 
+							via Cloudera Machine Learning. This AMP offers one-click deployment and generates policy recommendations, 
+							providing stakeholders and policymakers with real-time insights for effective implementation.
+						</p>
+						<ul class="actions special">
+							<li><a href="https://github.com/pareekshitreddy/Policy-Recommendation-System" class="button large">View Project</a></li>
+						</ul>
+					</article>
+
+					<article>
+						<header>
+							<h2><a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool">
+								QuerySense: Natural Language to SQL Converter &amp; Database Query Tool
+							</a></h2>
+						</header>
+						<a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool" class="image fit">
+							<img src="images/natural_language_to_sql.webp" alt="" />
+						</a>
+						<p>
+							End-to-end LLM application for seamless conversion of natural language queries into SQL queries, along with querying 
+							the database. Leveraging the Gemini-pro API for language model capabilities and FLASK for user-friendly interface.
+						</p>
+						<ul class="actions special">
+							<li><a href="https://github.com/pareekshitreddy/QuerySense-Natural-Language-to-SQL-Converter-Database-Query-Tool" class="button">View Project</a></li>
+						</ul>
+					</article>
+
+					<article>
+						<header>
+							<h2><a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot">
+								Ask Ally: Your Intuitive Q&amp;A Chatbot
+							</a></h2>
+						</header>
+						<a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot" class="image fit">
+							<img src="images/qachatbot.avif" alt="" />
+						</a>
+						<p>
+							End-to-End question-answering chatbot using Python and Streamlit, integrating the Langchain language model and 
+							the OpenAI API for language understanding. The application is deployed on Hugging Face Spaces.
+						</p>
+						<ul class="actions special">
+							<li><a href="https://github.com/pareekshitreddy/AskAlly-Your-Intuitive-Q-A-Chatbot" class="button">View Project</a></li>
+						</ul>
+					</article>
+				</section>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<!--
+				<section>
+					<form method="post" action="mailto:gaddam.pa@northeastern.edu">
+						<div class="fields">
+							<div class="field">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="text" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="3"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul>
+					</form>
+				</section>
+				-->
+				<section class="alt">
+					<h3>Address</h3>
+					<p>99 Calumet St<br />
+					Boston, MA, 02120</p>
+				</section>
+				<section>
+					<h3>Phone</h3>
+					<p><a href="Tel: 5133072627">(513) 307-2627</a></p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p><a href="mailto:gaddam.pa@northeastern.edu">gaddam.pa@northeastern.edu</a></p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li><a href="https://www.linkedin.com/in/pareekshitreddyg/" class="icon brands alt fa-linkedin">
+							<span class="label">LinkedIn</span></a>
+						</li>
+						<li><a href="https://github.com/pareekshitreddy" class="icon brands alt fa-github">
+							<span class="label">GitHub</span></a>
+						</li>
+						<li><a href="mailto:gaddam.pa@northeastern.edu" class="icon solid fa-envelope">
+							<span class="label">Email</span></a>
+						</li>
+					</ul>
+				</section>
+			</footer>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul>
+					<li>&copy; Pareekshit Reddy Gaddam</li>
+					<li> Data Scientist</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
